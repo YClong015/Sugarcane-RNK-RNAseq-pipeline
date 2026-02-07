@@ -5,4 +5,4 @@
 # Q208_7d_RKN_1
 #
 # IMPORTANT:
-# - Do NOT include RLN samples (we exclude SES208_12w_RLN_3).
+# - Do NOT include RLN samples
