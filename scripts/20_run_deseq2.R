@@ -32,7 +32,7 @@ read_cfg <- function(path) {
     k <- trimws(kv[1])
     v <- trimws(paste(kv[-1], collapse = "="))
 
-    v <- gsub("^\\"|\\"$", "", v)
+    v <- gsub('^"|"$', '', v)
 
     keys <- c(keys, k)
     vals <- c(vals, v)
