@@ -1,5 +1,3 @@
-#KEGG analysis
-
 suppressWarnings(suppressMessages({
   if (!requireNamespace("ggplot2", quietly = TRUE)) {
     stop("Missing R package: ggplot2")
