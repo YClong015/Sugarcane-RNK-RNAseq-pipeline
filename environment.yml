@@ -1,4 +1,4 @@
-name: sugarcane-rkn-rnaseq-r570
+name: sugarcane-rkn
 channels:
   - conda-forge
   - bioconda
