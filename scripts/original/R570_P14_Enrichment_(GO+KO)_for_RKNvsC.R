@@ -1,8 +1,3 @@
-
-title: "R570 P14 Enrichment (GO + KO) for RKN vs C"
-output: html_document
-
-
 params <- list(
   base_dir = "/QRISdata/Q9062/08_deseq2_R570",
   ann_tsv = "/QRISdata/Q9062/06_ref/gene_annotation_R570P14.tsv",
