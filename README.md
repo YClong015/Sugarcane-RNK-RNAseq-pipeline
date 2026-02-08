@@ -225,7 +225,7 @@ The R analysis workflow performs:
 
 ## 📜 Citation & Credits
 
-Maintainer: **Yanchen Zheng (Ethan)**  
+Maintainer: **Yanchen(Ethan) Zheng**  
 Affiliation: **The University of Queensland**
 
 If you use this pipeline, please cite the underlying tools:
