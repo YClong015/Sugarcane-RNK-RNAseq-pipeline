@@ -17,12 +17,10 @@ bash scripts/99_copy_config_example.sh
 
 - `08_deseq2_R570/samples_rkn_only.txt`
 
-You can initialize it from the template and sanitize it (drops RLN lines):
+You can initialize it from the template and sanitize it:
 
 ```bash
 bash scripts/00_init_dirs.sh
-bash scripts/02_prepare_samples_rkn_only.sh
-# edit 08_deseq2_R570/samples_rkn_only.txt
 bash scripts/02_prepare_samples_rkn_only.sh
 ```
 
