@@ -1,10 +1,18 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-if [[ -f config/config.env ]]; then
-  echo "[ERROR] config/config.env already exists." >&2
+src="config/config.env.example"
+dst="config/config.env"
+
+if [[ -f "$dst" ]]; then
+  echo "[ERROR] $dst already exists." >&2
   exit 1
 fi
 
-cp config/config.env.example config/config.env
-echo "[INFO] Created config/config.env"
+if [[ ! -f "$src" ]]; then
+  echo "[ERROR] Missing $src" >&2
+  exit 1
+fi
+
+cp "$src" "$dst"
+echo "[INFO] Created $dst"
