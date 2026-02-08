@@ -121,13 +121,6 @@ Create a plain text file listing sample IDs (one per line). IDs must match FASTQ
 
 **File location:** `08_deseq2_R570/samples_rkn_only.txt`
 
-Example:
-
-```text
-Q208_12w_C_1
-Q208_12w_RKN_1
-SES208_12w_C_1
-```
 
 ### 2) Metadata File (`metadata.csv`)
 
