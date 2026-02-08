@@ -1,8 +1,3 @@
----
-  title: "DESeq2 Simple (R570 Salmon)"
-output: html_document
----
-  
 
 suppressPackageStartupMessages({
   library(tximport)
